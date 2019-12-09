@@ -1,0 +1,45 @@
+/*this class is to store all constant number*/
+public class ConstantNumber {
+	public static final String MAP_PATH = "assets/main.tmx";
+	public static final String SOLID_PROPERTY = "solid";
+	public static final String OBJECT_PATH = "assets/objects.csv";
+	public static final String OCCUPIED_PROPERTY = "occupied";
+	public static final String METAL_STRING = "metal";
+	public static final String UNOBTAINIUM_STRING = "Unobtainium";
+	public static final String BUILDER_PATH= "assets/units/builder.png";
+	public static final String SCOUT_PATH= "assets/units/scout.png";
+	public static final String TRUCK_PATH= "assets/units/truck.png";
+	public static final String UNITSSELECTED_PATH= "assets/highlight.png";
+	public static final String COMMANDCENTRE_PATH="assets/buildings/command_centre.png";
+	public static final String PYLON_PATH="assets/buildings/pylon.png";
+	public static final String ACTIVEPYLON_PATH="assets/buildings/pylon_active.png";
+	public static final String METAL_PATH="assets/resources/metal_mine.png";
+	public static final String UNOBTAINIUM_PATH="assets/resources/unobtainium_mine.png";
+	public static final String FACTORY_PATH="assets/buildings/factory.png";
+	public static final String BUILDINGSELECTED_PATH="assets/highlight_large.png";
+	public static final String ENGINEERING_PATH="assets/units/engineer.png";
+	public static final double BUILDER_SPEED=0.1;
+	public static final double SCOUT_SPEED=0.3;
+	public static final double TRUCK_SPEED=0.25;
+	public static final double ENGINEERING_SPEED=0.1;
+	public static final int METAL_INITIALNUMBER=500;
+	public static final int UNOBTAINIUM_INITIALNUMBER=50;
+	public static final int CARRY_INITIALNUMBER=2;
+	public static final int FACTORY_METALCOST=100;
+	public static final int FACTORY_TIMECOST=10000;
+	public static final int UNITS_TIMECOST=5000;
+	public static final int CC_TIMECOST=15000;
+	public static final int TRUCK_METALCOST=150;
+	public static final int TRUCK_TIMECOST=5000;
+	public static final int MINING_TIMECOST=5000;
+	public static final int WITHIN_DISTANCE=32;
+	public static final int SELECT_DISTANCE=32;
+	public static final int ACTIVE_DISTANCE=32;
+	public static final double CAMERA_MOVEDISTANCE=0.4;
+	public static final int SCOUT_METALCOST=5;
+	public static final int BUILDER_METALCOST=10;
+	public static final int ENGINEER_METALCOST=20;
+	public static final int TRAINSCOUT_NUMBER=1;
+	public static final int TRAINBUILDER_NUMBER=2;
+	public static final int TRAINENGINEER_NUMBER=3;
+}
